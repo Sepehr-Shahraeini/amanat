@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "amanat", "amanat\amanat.csproj", "{3C8AAD61-2E82-4D2E-98BC-7F2223ECD041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "amanatApi", "amanatApi\amanatApi.csproj", "{AB1C714F-41EB-41DE-8682-8EC05592A35A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C8AAD61-2E82-4D2E-98BC-7F2223ECD041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8AAD61-2E82-4D2E-98BC-7F2223ECD041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8AAD61-2E82-4D2E-98BC-7F2223ECD041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8AAD61-2E82-4D2E-98BC-7F2223ECD041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1C714F-41EB-41DE-8682-8EC05592A35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1C714F-41EB-41DE-8682-8EC05592A35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1C714F-41EB-41DE-8682-8EC05592A35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1C714F-41EB-41DE-8682-8EC05592A35A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E0AAB10-176E-4DE9-9B72-7C88A2515768}
+	EndGlobalSection
+EndGlobal
