@@ -10,7 +10,6 @@ namespace amanatApi.Models
         public ERP_USER()
         {
             CACHEDASSETs = new HashSet<CACHEDASSET>();
-            ERP_ASSETLs = new HashSet<ERP_ASSETL>();
             ERP_ASSETs = new HashSet<ERP_ASSET>();
             ERP_MSGDETAILs = new HashSet<ERP_MSGDETAIL>();
             ERP_MSGs = new HashSet<ERP_MSG>();
@@ -44,7 +43,7 @@ namespace amanatApi.Models
         public string SIGNATUREURL { get; set; }
         public string PICTUREURL { get; set; }
         public int ROOTLOCATION { get; set; }
-        public long? LASTLOGIN { get; set; }
+        public int? LASTLOGIN { get; set; }
         public DateTime? LASTLOGING { get; set; }
         public int ACTIVE { get; set; }
         public int LOCATIONID { get; set; }
@@ -73,7 +72,6 @@ namespace amanatApi.Models
         public virtual ERP_LOCATION LOCATION { get; set; }
         public virtual ERP_LOCATION ROOTLOCATIONNavigation { get; set; }
         public virtual ICollection<CACHEDASSET> CACHEDASSETs { get; set; }
-        public virtual ICollection<ERP_ASSETL> ERP_ASSETLs { get; set; }
         public virtual ICollection<ERP_ASSET> ERP_ASSETs { get; set; }
         public virtual ICollection<ERP_MSGDETAIL> ERP_MSGDETAILs { get; set; }
         public virtual ICollection<ERP_MSG> ERP_MSGs { get; set; }

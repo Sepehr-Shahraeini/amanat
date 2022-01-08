@@ -24,11 +24,11 @@ namespace amanatApi.Models
         public double? COST { get; set; }
         public int? OPERATORID { get; set; }
         public string OPERATOR { get; set; }
-        public long? DATE_SCHEDULESTART { get; set; }
-        public long? DATE_SCHEDULEEND { get; set; }
-        public long? DATE_ACTUALSTART { get; set; }
-        public long? DATE_ACTUALEND { get; set; }
-        public long? DELAY_REASONID { get; set; }
+        public int? DATE_SCHEDULESTART { get; set; }
+        public int? DATE_SCHEDULEEND { get; set; }
+        public int? DATE_ACTUALSTART { get; set; }
+        public int? DATE_ACTUALEND { get; set; }
+        public int? DELAY_REASONID { get; set; }
         public string DELAY_REMARK { get; set; }
         public int? DURATION_SCHEDULED { get; set; }
         public int? DURATION_ACTUAL { get; set; }

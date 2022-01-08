@@ -10,8 +10,8 @@ namespace amanatApi.Models
         public int ID { get; set; }
         public int MAKOUTID { get; set; }
         public int PARTID { get; set; }
-        public long? RETURNDATE { get; set; }
-        public long? DEADLINE { get; set; }
+        public int? RETURNDATE { get; set; }
+        public int? DEADLINE { get; set; }
 
         public virtual ERP_MAKOUT MAKOUT { get; set; }
     }

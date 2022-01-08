@@ -12,6 +12,6 @@ namespace amanatApi.Models
         public int? OLDASSETID { get; set; }
         public int? NEWASSETID { get; set; }
         public int CREATOR { get; set; }
-        public long CREATEDATE { get; set; }
+        public int CREATEDATE { get; set; }
     }
 }

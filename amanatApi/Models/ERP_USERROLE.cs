@@ -11,8 +11,8 @@ namespace amanatApi.Models
         public int ROLEID { get; set; }
         public int? USERID { get; set; }
         public int? GROUPID { get; set; }
-        public long? DATE_BEGIN { get; set; }
-        public long? DATE_END { get; set; }
+        public int? DATE_BEGIN { get; set; }
+        public int? DATE_END { get; set; }
         public int ISACTIVE { get; set; }
 
         public virtual ERP_ROLE ROLE { get; set; }

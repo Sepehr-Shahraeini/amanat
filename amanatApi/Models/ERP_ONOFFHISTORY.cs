@@ -17,7 +17,7 @@ namespace amanatApi.Models
         public int? REASON { get; set; }
         public string REMARK { get; set; }
         public int ONOFF_STATUS { get; set; }
-        public long ONOFF_DATE { get; set; }
+        public int ONOFF_DATE { get; set; }
         public int CREATOR { get; set; }
         public DateTime? CREATEDATE { get; set; }
         public int? REPAIRPACKAGE { get; set; }

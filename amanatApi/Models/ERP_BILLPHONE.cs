@@ -10,11 +10,11 @@ namespace amanatApi.Models
         public int ID { get; set; }
         public int PARDAKHT_VAZIAT { get; set; }
         public int? PARDAKHAT_TYPE { get; set; }
-        public long? PARDAKHT_DATE { get; set; }
+        public int? PARDAKHT_DATE { get; set; }
         public double PRICE { get; set; }
         public string RAHGIRI_NO { get; set; }
-        public long BEGINDATE { get; set; }
-        public long ENDDATE { get; set; }
+        public int BEGINDATE { get; set; }
+        public int ENDDATE { get; set; }
         public string SHENASE_PARDAKHT { get; set; }
         public string SHENASE_GHABZ { get; set; }
         public int? APPROVER { get; set; }
@@ -38,6 +38,6 @@ namespace amanatApi.Models
         public double? AVAREZ { get; set; }
         public string XLSFILE { get; set; }
         public int ASSETID { get; set; }
-        public long? CREATE_DATE { get; set; }
+        public int? CREATE_DATE { get; set; }
     }
 }

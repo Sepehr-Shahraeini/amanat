@@ -11,7 +11,7 @@ namespace amanatApi.Models
         public int USERID { get; set; }
         public int ASSETID { get; set; }
         public double RESERVED_QTY { get; set; }
-        public long RESERVATION_DATE { get; set; }
+        public int RESERVATION_DATE { get; set; }
         public int ISPRESISTANT { get; set; }
         public int? APPID { get; set; }
         public DateTime? SYSRESDATE { get; set; }

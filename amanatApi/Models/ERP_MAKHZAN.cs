@@ -20,17 +20,17 @@ namespace amanatApi.Models
         public int? RECID { get; set; }
         public int? APPROVERID { get; set; }
         public int? SENDERLOCATIONID { get; set; }
-        public long? RECDATE { get; set; }
-        public long? APPROVEDATE { get; set; }
+        public int? RECDATE { get; set; }
+        public int? APPROVEDATE { get; set; }
         public string LETTERSUBJECT { get; set; }
-        public long? LETTERDATE { get; set; }
+        public int? LETTERDATE { get; set; }
         public string LETTERNO { get; set; }
         public string MOJAVEZKHARIDNO { get; set; }
         public string SOORATJALASENO { get; set; }
         public string DESCRIPTION { get; set; }
         public string PARTS { get; set; }
-        public long? LAST_EXIT { get; set; }
-        public long? LAST_RETURN { get; set; }
+        public int? LAST_EXIT { get; set; }
+        public int? LAST_RETURN { get; set; }
 
         public virtual ICollection<ERP_MAKHZAN_PART> ERP_MAKHZAN_PARTs { get; set; }
         public virtual ICollection<ERP_MAKOUT> ERP_MAKOUTs { get; set; }

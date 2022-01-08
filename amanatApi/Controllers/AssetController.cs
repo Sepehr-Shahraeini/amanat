@@ -19,10 +19,34 @@ namespace amanatApi.Controllers
 
         [EnableQuery()]
         [HttpGet]
-        [Route("api/asset/query")]
+        [Route("api/assets/view")]
         public ActionResult<IQueryable<VIEW_ASSET>> GetAssetsQuery()
         {
             return _assetService.GetAssetsQuery();
+        }
+
+        [EnableQuery()]
+        [HttpGet]
+        [Route("api/vehicles/view")]
+        public ActionResult<IQueryable<VIEW_VEHICLE>> GetVehiclesQuery()
+        {
+            return _assetService.GetVehiclesQuery();
+        }
+
+        [EnableQuery()]
+        [HttpGet]
+        [Route("api/melks/view")]
+        public ActionResult<IQueryable<VIEW_MELK>> GetMelksQuery()
+        {
+            return _assetService.GetMelksQuery();
+        }
+
+        [EnableQuery()]
+        [HttpGet]
+        [Route("api/phones/view")]
+        public ActionResult<IQueryable<VIEW_PHONE>> GetPhonesQuery()
+        {
+            return _assetService.GetPhonesQuery();
         }
 
     }

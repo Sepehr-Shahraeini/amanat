@@ -5,9 +5,9 @@ using System.Collections.Generic;
 
 namespace amanatApi.Models
 {
-    public partial class _test
+    public partial class TEST
     {
-        public int Id { get; set; }
-        public int? Col { get; set; }
+        public int ID { get; set; }
+        public string TITLE { get; set; }
     }
 }

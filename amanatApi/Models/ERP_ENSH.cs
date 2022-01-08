@@ -25,18 +25,18 @@ namespace amanatApi.Models
         public string GHOTR { get; set; }
         public int? MOSHTAREK_TYPE { get; set; }
         public string MOSHTAREK_NAME { get; set; }
-        public long? NASB_DATE { get; set; }
-        public long MABNA_DATE { get; set; }
+        public int? NASB_DATE { get; set; }
+        public int MABNA_DATE { get; set; }
         public double COUNTER { get; set; }
         public int VEKALATNAME { get; set; }
         public int SHENASNAME { get; set; }
         public int EGHRARNAME { get; set; }
         public string FISH_NO { get; set; }
         public double? FISH_PRICE { get; set; }
-        public long? FISH_DATE { get; set; }
+        public int? FISH_DATE { get; set; }
         public string FAZELAB_GHTR { get; set; }
         public int? FAZELAB_COUNT { get; set; }
-        public long? FAZELAB_NASB_DATE { get; set; }
+        public int? FAZELAB_NASB_DATE { get; set; }
         public string PHASE { get; set; }
         public string AMPER { get; set; }
         public int ASSETID { get; set; }

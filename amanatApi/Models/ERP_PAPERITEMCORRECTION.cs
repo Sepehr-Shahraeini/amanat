@@ -34,7 +34,7 @@ namespace amanatApi.Models
         public int? BRAND { get; set; }
         public string SNBN { get; set; }
         public int? SENDERCONDITION { get; set; }
-        public long? KASR_RETURN_DATE { get; set; }
+        public int? KASR_RETURN_DATE { get; set; }
         public int? O_CODEID { get; set; }
         public string O_ASSETTITLE { get; set; }
         public double? O_QUANTITY { get; set; }
@@ -56,7 +56,7 @@ namespace amanatApi.Models
         public int? O_BRAND { get; set; }
         public string O_SNBN { get; set; }
         public int? O_SENDERCONDITION { get; set; }
-        public long? O_KASR_RETURN_DATE { get; set; }
+        public int? O_KASR_RETURN_DATE { get; set; }
 
         public virtual ERP_PAPERCORRECTION PAPERCORRECTION { get; set; }
         public virtual ERP_PAPERITEM PAPERITEM { get; set; }

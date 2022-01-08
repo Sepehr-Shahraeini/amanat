@@ -32,21 +32,21 @@ namespace amanatApi.Models
         public double? BOOKVALUE { get; set; }
         public double? SAVEDAMOUNT { get; set; }
         public double? USEFULAGE { get; set; }
-        public long? PRODATE { get; set; }
-        public long? EXPDATE { get; set; }
+        public int? PRODATE { get; set; }
+        public int? EXPDATE { get; set; }
         public DateTime? PRODATEG { get; set; }
         public DateTime? EXPDATEG { get; set; }
-        public long? PURCHASEDATE { get; set; }
-        public long? OPERATIONDATE { get; set; }
-        public long? LETTERDATE { get; set; }
+        public int? PURCHASEDATE { get; set; }
+        public int? OPERATIONDATE { get; set; }
+        public int? LETTERDATE { get; set; }
         public string LETTERNO { get; set; }
         public string LETTERSUBJECT { get; set; }
         public string SELLERNAME { get; set; }
         public string SELLERPHONE { get; set; }
         public string SELLERADDRESS { get; set; }
         public string WARANTY { get; set; }
-        public long? WARANTYBEGINDATE { get; set; }
-        public long? WARANTYENDDATE { get; set; }
+        public int? WARANTYBEGINDATE { get; set; }
+        public int? WARANTYENDDATE { get; set; }
         public string DESCRIPTION { get; set; }
         public int? RECEIVERID { get; set; }
         public int? KEEPINGLOCATIONID { get; set; }
@@ -55,7 +55,7 @@ namespace amanatApi.Models
         public int? RECLOCATIONID { get; set; }
         public double REMAIN { get; set; }
         public int? CONDITION { get; set; }
-        public long? CALCDATE { get; set; }
+        public int? CALCDATE { get; set; }
         public int? MAINOWNER { get; set; }
         public int? ID2 { get; set; }
         public int? PARENTID { get; set; }
@@ -66,7 +66,7 @@ namespace amanatApi.Models
         public int? LASTPAPERITEMID { get; set; }
         public int? SHELFFROM { get; set; }
         public int? SHELFTO { get; set; }
-        public long? EXITDATE { get; set; }
+        public int? EXITDATE { get; set; }
         public int? EXITREASON { get; set; }
         public string EXITTO { get; set; }
         public int? USAGE { get; set; }
@@ -79,7 +79,7 @@ namespace amanatApi.Models
         public int? KHODRO_NOTYPE { get; set; }
         public string PHONE_NO { get; set; }
         public string AMLAK_POSTALCODE { get; set; }
-        public long? CREATEDATE { get; set; }
+        public int? CREATEDATE { get; set; }
         public int? EXIT_PAPERITEM { get; set; }
         public int? ROOTASSETID { get; set; }
         public int? MATERIAL { get; set; }

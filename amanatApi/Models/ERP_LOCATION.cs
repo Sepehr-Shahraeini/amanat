@@ -10,9 +10,6 @@ namespace amanatApi.Models
         public ERP_LOCATION()
         {
             ERP_ASSETKEEPINGLOCATIONs = new HashSet<ERP_ASSET>();
-            ERP_ASSETLKEEPINGLOCATIONs = new HashSet<ERP_ASSETL>();
-            ERP_ASSETLRECLOCATIONs = new HashSet<ERP_ASSETL>();
-            ERP_ASSETLROOTLOCATIONNavigations = new HashSet<ERP_ASSETL>();
             ERP_ASSETRECLOCATIONs = new HashSet<ERP_ASSET>();
             ERP_ASSETROOTLOCATIONNavigations = new HashSet<ERP_ASSET>();
             ERP_PAPERFKREQUESTLOCATIONNavigations = new HashSet<ERP_PAPER>();
@@ -51,9 +48,6 @@ namespace amanatApi.Models
         public int ISVIRTUAL { get; set; }
 
         public virtual ICollection<ERP_ASSET> ERP_ASSETKEEPINGLOCATIONs { get; set; }
-        public virtual ICollection<ERP_ASSETL> ERP_ASSETLKEEPINGLOCATIONs { get; set; }
-        public virtual ICollection<ERP_ASSETL> ERP_ASSETLRECLOCATIONs { get; set; }
-        public virtual ICollection<ERP_ASSETL> ERP_ASSETLROOTLOCATIONNavigations { get; set; }
         public virtual ICollection<ERP_ASSET> ERP_ASSETRECLOCATIONs { get; set; }
         public virtual ICollection<ERP_ASSET> ERP_ASSETROOTLOCATIONNavigations { get; set; }
         public virtual ICollection<ERP_PAPER> ERP_PAPERFKREQUESTLOCATIONNavigations { get; set; }

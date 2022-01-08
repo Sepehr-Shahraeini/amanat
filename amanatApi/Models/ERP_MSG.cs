@@ -16,7 +16,7 @@ namespace amanatApi.Models
 
         public int ID { get; set; }
         public int SENDER { get; set; }
-        public long DATE_SENT { get; set; }
+        public int DATE_SENT { get; set; }
         public int DELETED { get; set; }
         public int SYSTEM { get; set; }
         public int? FORWARDEDBY { get; set; }
@@ -27,9 +27,9 @@ namespace amanatApi.Models
         public string BODY { get; set; }
         public int RECEIVER { get; set; }
         public int VISITED { get; set; }
-        public long? DATE_VISITED { get; set; }
+        public int? DATE_VISITED { get; set; }
         public int REPLIED { get; set; }
-        public long? DATE_REPLIED { get; set; }
+        public int? DATE_REPLIED { get; set; }
         public int FORWARDED { get; set; }
         public string CONVERSATION { get; set; }
         public int MASTER { get; set; }

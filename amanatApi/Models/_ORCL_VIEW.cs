@@ -5,8 +5,8 @@ using System.Collections.Generic;
 
 namespace amanatApi.Models
 {
-    public partial class ORCL_TABLE
+    public partial class _ORCL_VIEW
     {
-        public string Name { get; set; }
+        public string NAME { get; set; }
     }
 }

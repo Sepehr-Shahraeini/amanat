@@ -14,8 +14,8 @@ namespace amanatApi.Models
         public string COMPANY_STR { get; set; }
         public string BIMEGOZAR { get; set; }
         public string SUBJECT { get; set; }
-        public long BEGINDATE { get; set; }
-        public long ENDDATE { get; set; }
+        public int BEGINDATE { get; set; }
+        public int ENDDATE { get; set; }
         public double PRICE { get; set; }
         public string NO { get; set; }
         public string REMARK { get; set; }

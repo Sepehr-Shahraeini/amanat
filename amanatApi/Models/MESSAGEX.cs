@@ -9,7 +9,7 @@ namespace amanatApi.Models
     {
         public byte[] ID { get; set; }
         public int SENDER { get; set; }
-        public long SENDDATE { get; set; }
+        public int SENDDATE { get; set; }
         public int DELETED { get; set; }
         public int SYSTEM { get; set; }
         public byte[] FORWARDEDBY { get; set; }

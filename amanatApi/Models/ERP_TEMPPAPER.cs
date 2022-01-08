@@ -14,7 +14,7 @@ namespace amanatApi.Models
 
         public int ID { get; set; }
         public string NO { get; set; }
-        public long PAPERDATE { get; set; }
+        public int PAPERDATE { get; set; }
         public int CREATOR { get; set; }
         public int? REC { get; set; }
         public int? RECLOCATION { get; set; }

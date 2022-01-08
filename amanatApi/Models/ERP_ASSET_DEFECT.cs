@@ -14,13 +14,13 @@ namespace amanatApi.Models
 
         public int ID { get; set; }
         public int ASSETID { get; set; }
-        public long DATE_REPORTED { get; set; }
+        public int DATE_REPORTED { get; set; }
         public int REPORTERID { get; set; }
         public int? PROBLEMID { get; set; }
         public string REMARK { get; set; }
         public string NO { get; set; }
         public int? TASKID { get; set; }
-        public long? DATE_FIXED { get; set; }
+        public int? DATE_FIXED { get; set; }
         public int? APPREVERID { get; set; }
         public int? PACKAGEID { get; set; }
 

@@ -62,7 +62,7 @@ namespace amanatApi.Models
         public string DAFTARCODE { get; set; }
         public string DAFTERSABTNO { get; set; }
         public int? N_DAFTARSAFHE { get; set; }
-        public long? DAFTARDATE { get; set; }
+        public int? DAFTARDATE { get; set; }
         public string FUELCARD { get; set; }
         public int? POLUTION { get; set; }
         public int? MALEKPID { get; set; }

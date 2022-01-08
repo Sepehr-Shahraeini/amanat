@@ -11,7 +11,7 @@ namespace amanatApi.Models
         public int? SANADID { get; set; }
         public int PARTID { get; set; }
         public string DOCUMENTNO { get; set; }
-        public long? DATE_DOCUMENT { get; set; }
+        public int? DATE_DOCUMENT { get; set; }
         public string DESCRIPTION { get; set; }
         public int? ASSETID { get; set; }
 

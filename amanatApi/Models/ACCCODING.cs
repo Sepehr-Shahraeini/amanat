@@ -12,8 +12,8 @@ namespace amanatApi.Models
         public int KOL { get; set; }
         public string CREATEUSER { get; set; }
         public string UPDATEUSER { get; set; }
-        public long REGISTERDATE { get; set; }
-        public long UPDATEDATE { get; set; }
+        public int REGISTERDATE { get; set; }
+        public int UPDATEDATE { get; set; }
         public int MOEIN { get; set; }
         public int FULLCODE { get; set; }
         public string FULLNAME { get; set; }

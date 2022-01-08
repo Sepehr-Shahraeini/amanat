@@ -1,0 +1,122 @@
+﻿using System;
+using System.Collections.Generic;
+
+#nullable disable
+
+namespace amanatApi.Models
+{
+    public partial class VIEW_PHONE
+    {
+        public int ASSET_ID { get; set; }
+        public string ASSET_LABEL { get; set; }
+        public string ASSET_NAME { get; set; }
+        public long? ASSET_NLABEL { get; set; }
+        public int ASSET_CODEID { get; set; }
+        public string ASSET_CODE { get; set; }
+        public string ASSET_OLDLABEL { get; set; }
+        public int? ASSET_COUNTRY { get; set; }
+        public string ASSET_COUNTRY_STR { get; set; }
+        public double? ASSET_QUALITY { get; set; }
+        public int? ASSET_VALUETYPE { get; set; }
+        public string ASSET_VALUETYPE_STR { get; set; }
+        public double? ASSET_VALUE { get; set; }
+        public int ASSET_CURRENCY { get; set; }
+        public string ASSET_CURRENCY_STR { get; set; }
+        public double? ASSET_EXCHANGERATE { get; set; }
+        public int? ASSET_EARNINGTYPE { get; set; }
+        public string ASSET_EARNINGTYPE_STR { get; set; }
+        public string ASSET_OLDOWNER { get; set; }
+        public double? ASSET_BOOKVALUE { get; set; }
+        public double? ASSET_SAVEDAMOUNT { get; set; }
+        public double? ASSET_USEFULAGE { get; set; }
+        public long ASSET_PURCHASEDATE { get; set; }
+        public long ASSET_OPERATIONDATE { get; set; }
+        public long? ASSET_LETTERDATE { get; set; }
+        public string ASSET_LETTERNO { get; set; }
+        public string ASSET_LETTERSUBJECT { get; set; }
+        public string ASSET_SELLERNAME { get; set; }
+        public string ASSET_SELLERPHONE { get; set; }
+        public string ASSET_SELLERADDRESS { get; set; }
+        public string ASSET_DESCRIPTION { get; set; }
+        public int ASSET_RECEIVERID { get; set; }
+        public string ASSET_REC_PID { get; set; }
+        public string ASSET_REC_NAME { get; set; }
+        public int ASSET_KEEPINGLOCATIONID { get; set; }
+        public int ASSET_ROOTLOCATION { get; set; }
+        public string ASSET_ROOT_CODE { get; set; }
+        public string ASSET_ROOT_TITLE { get; set; }
+        public int ASSET_RECLOCATIONID { get; set; }
+        public string ASSET_RECLOCATION_CODE { get; set; }
+        public string ASSET_RECLOCATION_TITLE { get; set; }
+        public int RECLOCATION_TYPE { get; set; }
+        public double ASSET_REMAIN { get; set; }
+        public int? ASSET_CONDITION { get; set; }
+        public string ASSET_CONDITION_STR { get; set; }
+        public long? ASSET_CALCDATE { get; set; }
+        public int? ASSET_MAINOWNER { get; set; }
+        public int? ASSET_ID2 { get; set; }
+        public string ASSET_TRACKINGNO { get; set; }
+        public int? ASSET_LASTPAPERITEMID { get; set; }
+        public long? ASSET_EXITDATE { get; set; }
+        public int? ASSET_EXITREASON { get; set; }
+        public string ASSET_EXITTO { get; set; }
+        public int? ASSET_USAGE { get; set; }
+        public string ASSET_POSTALCODE { get; set; }
+        public string ASSET_SABTI_ASLI { get; set; }
+        public string ASSET_SABTI_FAREI { get; set; }
+        public string ASSET_VARAGHE_MALEKIAT { get; set; }
+        public double RESERVEDQTY { get; set; }
+        public double ASSET_AVAILABLEQTY { get; set; }
+        public int IS_EXITED { get; set; }
+        public int? EXIT_PAPERITEM { get; set; }
+        public string MELKNO { get; set; }
+        public string SIMNO { get; set; }
+        public string PIN1 { get; set; }
+        public string PIN2 { get; set; }
+        public string PUK1 { get; set; }
+        public string PUK2 { get; set; }
+        public string STATE { get; set; }
+        public string CITY { get; set; }
+        public string MANTAGHE { get; set; }
+        public string ADDRESS { get; set; }
+        public int? N_POSTALCODE { get; set; }
+        public string DAFTARCODE { get; set; }
+        public string DAFTERSABTNO { get; set; }
+        public string DAFTARSAFHE { get; set; }
+        public int? DAFTARDATE { get; set; }
+        public string FISHNO { get; set; }
+        public string BANK { get; set; }
+        public int? FISHVALUE { get; set; }
+        public int? FISHPARDAKHTDATE { get; set; }
+        public int? VEKALATNAMEID { get; set; }
+        public string VEKALATNAMEID_TITLE { get; set; }
+        public int? EGHRARNAMEID { get; set; }
+        public string EGHRARNAMEID_TITLE { get; set; }
+        public int? SHENASNAMEID { get; set; }
+        public string SHENASNAMEID_TITLE { get; set; }
+        public int? FISHTASVIRID { get; set; }
+        public string FISHTASVIRID_TITLE { get; set; }
+        public string SOLHNO { get; set; }
+        public int? SOLHDATE { get; set; }
+        public string ASSET_PHONE_NO { get; set; }
+        public int? SANADVAZIATID { get; set; }
+        public string SANADVAZIAT_STR { get; set; }
+        public int? SANADTYPEID { get; set; }
+        public string SANADTYPE_STR { get; set; }
+        public int? MALEKIATTYPEID { get; set; }
+        public string MALEKIATTYPE_STR { get; set; }
+        public string MALEK { get; set; }
+        public int? SANADTEDAD { get; set; }
+        public int? MALEKPID { get; set; }
+        public string MALEK_PID { get; set; }
+        public string MALEK_NAME { get; set; }
+        public int? MAKHZANNO { get; set; }
+        public int INOUTSTATUS { get; set; }
+        public string INOUTSTATUS_STR { get; set; }
+        public int? LASTENDDATE { get; set; }
+        public int? LASTPERIOD { get; set; }
+        public string DOCS { get; set; }
+        public int? USERID { get; set; }
+        public string USERSTR { get; set; }
+    }
+}

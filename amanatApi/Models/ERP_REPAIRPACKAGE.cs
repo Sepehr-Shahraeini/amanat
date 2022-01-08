@@ -22,10 +22,10 @@ namespace amanatApi.Models
         public double? TAKHFIF { get; set; }
         public double? HAML { get; set; }
         public double? MALIAT { get; set; }
-        public long? DATE_SCHEDULESTART { get; set; }
-        public long? DATE_SCHEDULEEND { get; set; }
-        public long? DATE_ACTUALSTART { get; set; }
-        public long? DATE_ACTUALEND { get; set; }
+        public int? DATE_SCHEDULESTART { get; set; }
+        public int? DATE_SCHEDULEEND { get; set; }
+        public int? DATE_ACTUALSTART { get; set; }
+        public int? DATE_ACTUALEND { get; set; }
         public int? DURATION_SCHEDULE { get; set; }
         public int? DURATION_ACTUAL { get; set; }
         public string REMARK { get; set; }
@@ -48,21 +48,21 @@ namespace amanatApi.Models
         public float? COSTEJARE { get; set; }
         public int? IS_OUTSOURCE { get; set; }
         public int? WORKSHOPID { get; set; }
-        public long? DATE_TAHVIL { get; set; }
-        public long? DATE_RECEIVE { get; set; }
-        public long? DATE_APPROVE { get; set; }
+        public int? DATE_TAHVIL { get; set; }
+        public int? DATE_RECEIVE { get; set; }
+        public int? DATE_APPROVE { get; set; }
         public int CREATOR { get; set; }
         public int CREATORLOC { get; set; }
-        public long? DATE_CLOSED { get; set; }
+        public int? DATE_CLOSED { get; set; }
         public string INVOICE_NO { get; set; }
-        public long? DATE_INVOICE { get; set; }
+        public int? DATE_INVOICE { get; set; }
         public int? REPAIRTYPE { get; set; }
         public byte[] OLDID { get; set; }
         public string RPR_PARTNO { get; set; }
         public int? RPR_COSTYPR { get; set; }
         public string RPR_COSTTYPE_TITLE { get; set; }
         public string RPR_XPARTS { get; set; }
-        public long? CREATE_DATE { get; set; }
+        public int? CREATE_DATE { get; set; }
         public int? DELETED { get; set; }
 
         public virtual ERP_ASSET ASSET { get; set; }

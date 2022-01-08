@@ -15,17 +15,17 @@ namespace amanatApi.Models
         public int SENLOCATIONID { get; set; }
         public int PARENTID { get; set; }
         public int CREATORID { get; set; }
-        public long CREATEDATE { get; set; }
+        public int CREATEDATE { get; set; }
         public int VISITED { get; set; }
-        public long? VISITDATE { get; set; }
+        public int? VISITDATE { get; set; }
         public int REJECTED { get; set; }
-        public long? REJECTDATE { get; set; }
+        public int? REJECTDATE { get; set; }
         public int CONFIRMED { get; set; }
-        public long? CONFIRMDATE { get; set; }
+        public int? CONFIRMDATE { get; set; }
         public int ARCHIVED { get; set; }
-        public long? ARCHIVEDATE { get; set; }
+        public int? ARCHIVEDATE { get; set; }
         public int? STATUS { get; set; }
-        public long? STATUSDATE { get; set; }
+        public int? STATUSDATE { get; set; }
         public int DELETED { get; set; }
         public int? READYTOARCHIVE { get; set; }
         public int? PAPERCORRECTIONID { get; set; }

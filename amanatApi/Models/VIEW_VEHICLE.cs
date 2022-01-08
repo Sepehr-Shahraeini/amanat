@@ -1,0 +1,124 @@
+﻿using System;
+using System.Collections.Generic;
+
+#nullable disable
+
+namespace amanatApi.Models
+{
+    public partial class VIEW_VEHICLE
+    {
+        public int ASSET_ID { get; set; }
+        public string ASSET_LABEL { get; set; }
+        public string ASSET_NAME { get; set; }
+        public string ASSET_SNBN { get; set; }
+        public double? ASSET_ARZI { get; set; }
+        public int? ASSET_LABELTYPE { get; set; }
+        public string ASSET_LABELTYPE_STR { get; set; }
+        public int ASSET_CODEID { get; set; }
+        public string ASSET_CODE { get; set; }
+        public string ASSET_OLDLABEL { get; set; }
+        public int? ASSET_COUNTRY { get; set; }
+        public string ASSET_COUNTRY_STR { get; set; }
+        public string ASSET_MODEL { get; set; }
+        public int? ASSET_BRAND { get; set; }
+        public string ASSET_BRAND_STR { get; set; }
+        public double? ASSET_QUALITY { get; set; }
+        public int? ASSET_VALUETYPE { get; set; }
+        public string ASSET_VALUETYPE_STR { get; set; }
+        public double? ASSET_VALUE { get; set; }
+        public int ASSET_CURRENCY { get; set; }
+        public string ASSET_CURRENCY_STR { get; set; }
+        public double? ASSET_EXCHANGERATE { get; set; }
+        public int? ASSET_EARNINGTYPE { get; set; }
+        public string ASSET_EARNINGTYPE_STR { get; set; }
+        public string ASSET_OLDOWNER { get; set; }
+        public double? ASSET_BOOKVALUE { get; set; }
+        public double? ASSET_SAVEDAMOUNT { get; set; }
+        public double? ASSET_USEFULAGE { get; set; }
+        public long ASSET_PURCHASEDATE { get; set; }
+        public long ASSET_OPERATIONDATE { get; set; }
+        public long? ASSET_LETTERDATE { get; set; }
+        public string ASSET_LETTERNO { get; set; }
+        public string ASSET_LETTERSUBJECT { get; set; }
+        public string ASSET_SELLERNAME { get; set; }
+        public string ASSET_SELLERPHONE { get; set; }
+        public string ASSET_SELLERADDRESS { get; set; }
+        public string ASSET_DESCRIPTION { get; set; }
+        public int ASSET_RECEIVERID { get; set; }
+        public string ASSET_REC_PID { get; set; }
+        public string ASSET_REC_NAME { get; set; }
+        public int ASSET_KEEPINGLOCATIONID { get; set; }
+        public int ASSET_ROOTLOCATION { get; set; }
+        public string ASSET_ROOT_CODE { get; set; }
+        public string ASSET_ROOT_TITLE { get; set; }
+        public int ASSET_RECLOCATIONID { get; set; }
+        public string ASSET_RECLOCATION_CODE { get; set; }
+        public string ASSET_RECLOCATION_TITLE { get; set; }
+        public int RECLOCATION_TYPE { get; set; }
+        public double ASSET_REMAIN { get; set; }
+        public int? ASSET_CONDITION { get; set; }
+        public string ASSET_CONDITION_STR { get; set; }
+        public long? ASSET_CALCDATE { get; set; }
+        public int? ASSET_MAINOWNER { get; set; }
+        public int? ASSET_ID2 { get; set; }
+        public string ASSET_TRACKINGNO { get; set; }
+        public int? ASSET_LASTPAPERITEMID { get; set; }
+        public long? ASSET_EXITDATE { get; set; }
+        public int? ASSET_EXITREASON { get; set; }
+        public string ASSET_EXITTO { get; set; }
+        public int? ASSET_USAGE { get; set; }
+        public string ASSET_POSTALCODE { get; set; }
+        public string ASSET_ENTEZAMI { get; set; }
+        public string ASSET_MOTOR { get; set; }
+        public int? ASSET_KHODRO_NOTYPE { get; set; }
+        public string ASSET_NOTYPE_STR { get; set; }
+        public string ASSET_SHASI { get; set; }
+        public long? ASSET_PRODATE { get; set; }
+        public DateTime? ASSET_PRODATEG { get; set; }
+        public string ASSET_VARAGHE_MALEKIAT { get; set; }
+        public double RESERVEDQTY { get; set; }
+        public double ASSET_AVAILABLEQTY { get; set; }
+        public int IS_EXITED { get; set; }
+        public int? EXIT_PAPERITEM { get; set; }
+        public int? ID { get; set; }
+        public string MAHRAMANENO { get; set; }
+        public int? FUELTYPE { get; set; }
+        public string FUELTYPE_STR { get; set; }
+        public string BENZINCARD { get; set; }
+        public string CNGCARD { get; set; }
+        public string GASOLINECARD { get; set; }
+        public int? CYLINDER { get; set; }
+        public int? WHEEL { get; set; }
+        public int? AXIS { get; set; }
+        public int? CAPACITY { get; set; }
+        public string CAPACITYSTR { get; set; }
+        public int? KARBARIID { get; set; }
+        public string KARBARI_STR { get; set; }
+        public string VIN { get; set; }
+        public string AGHLAM { get; set; }
+        public string PROPERTIES { get; set; }
+        public string CARD { get; set; }
+        public int? SANADVAZIATID { get; set; }
+        public string SANADVAZIAT_STR { get; set; }
+        public int? SANADTYPEID { get; set; }
+        public string SANADTYPE_STR { get; set; }
+        public int? MALEKIATTYPEID { get; set; }
+        public string MALEKIATTYPE_STR { get; set; }
+        public string MALEK { get; set; }
+        public int? SANADTEDAD { get; set; }
+        public string VMALEKIAT { get; set; }
+        public string SANADREMARK { get; set; }
+        public int? MALEKPID { get; set; }
+        public string MALEK_PID { get; set; }
+        public string MALEK_NAME { get; set; }
+        public int? MAKHZANNO { get; set; }
+        public int? MAKHZAN_NO { get; set; }
+        public int INOUTSTATUS { get; set; }
+        public string INOUTSTATUS_STR { get; set; }
+        public long? ASSET_NLABEL { get; set; }
+        public string FUELCARD { get; set; }
+        public string DOCS { get; set; }
+        public int? USERID { get; set; }
+        public string USERSTR { get; set; }
+    }
+}

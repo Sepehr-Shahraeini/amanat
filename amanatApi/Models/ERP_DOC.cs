@@ -10,7 +10,7 @@ namespace amanatApi.Models
         public int ID { get; set; }
         public int? ASSETID { get; set; }
         public int? FILETYPE { get; set; }
-        public long? DATE_ADD { get; set; }
+        public int? DATE_ADD { get; set; }
         public string DESCRIPTION { get; set; }
         public string FILEEXT { get; set; }
         public string NO { get; set; }

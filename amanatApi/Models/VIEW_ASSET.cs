@@ -112,7 +112,7 @@ namespace amanatApi.Models
         public int? ASSET_AREAUNIT { get; set; }
         public int? ASSET_CAPACITYUNIT { get; set; }
         public double? REPAIR_TOTALCOST { get; set; }
-        public int? EXP_REMAIN { get; set; }
+        public int EXP_REMAIN { get; set; }
         public int CREATOR { get; set; }
         public int? MAKHZAN_NO { get; set; }
         public string MAHRAMANENO { get; set; }

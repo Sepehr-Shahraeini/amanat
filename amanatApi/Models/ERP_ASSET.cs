@@ -10,8 +10,6 @@ namespace amanatApi.Models
         public ERP_ASSET()
         {
             CACHEDASSETs = new HashSet<CACHEDASSET>();
-            ERP_ASSETLEXTRACTFROMs = new HashSet<ERP_ASSETL>();
-            ERP_ASSETLPARENTs = new HashSet<ERP_ASSETL>();
             ERP_ASSETOPT_DETAILs = new HashSet<ERP_ASSETOPT_DETAIL>();
             ERP_ASSET_DEFECTs = new HashSet<ERP_ASSET_DEFECT>();
             ERP_CHANGEOWNERs = new HashSet<ERP_CHANGEOWNER>();
@@ -29,6 +27,8 @@ namespace amanatApi.Models
             ERP_REPAIR_RMATERIALPASSETs = new HashSet<ERP_REPAIR_RMATERIAL>();
             InverseEXTRACTFROM = new HashSet<ERP_ASSET>();
             InversePARENT = new HashSet<ERP_ASSET>();
+            NET_CMPD_CHKSEQ_HISTORies = new HashSet<NET_CMPD_CHKSEQ_HISTORY>();
+            NET_CMPD_LASTDONEs = new HashSet<NET_CMPD_LASTDONE>();
         }
 
         public int ID { get; set; }
@@ -164,8 +164,6 @@ namespace amanatApi.Models
         public virtual ERP_LOCATION RECLOCATION { get; set; }
         public virtual ERP_LOCATION ROOTLOCATIONNavigation { get; set; }
         public virtual ICollection<CACHEDASSET> CACHEDASSETs { get; set; }
-        public virtual ICollection<ERP_ASSETL> ERP_ASSETLEXTRACTFROMs { get; set; }
-        public virtual ICollection<ERP_ASSETL> ERP_ASSETLPARENTs { get; set; }
         public virtual ICollection<ERP_ASSETOPT_DETAIL> ERP_ASSETOPT_DETAILs { get; set; }
         public virtual ICollection<ERP_ASSET_DEFECT> ERP_ASSET_DEFECTs { get; set; }
         public virtual ICollection<ERP_CHANGEOWNER> ERP_CHANGEOWNERs { get; set; }
@@ -183,5 +181,7 @@ namespace amanatApi.Models
         public virtual ICollection<ERP_REPAIR_RMATERIAL> ERP_REPAIR_RMATERIALPASSETs { get; set; }
         public virtual ICollection<ERP_ASSET> InverseEXTRACTFROM { get; set; }
         public virtual ICollection<ERP_ASSET> InversePARENT { get; set; }
+        public virtual ICollection<NET_CMPD_CHKSEQ_HISTORY> NET_CMPD_CHKSEQ_HISTORies { get; set; }
+        public virtual ICollection<NET_CMPD_LASTDONE> NET_CMPD_LASTDONEs { get; set; }
     }
 }

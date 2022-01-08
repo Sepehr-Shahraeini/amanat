@@ -18,7 +18,7 @@ namespace amanatApi.Models
         public string NAME { get; set; }
         public string SUBJECT { get; set; }
         public int? COUNTRYID { get; set; }
-        public long? SABTDATE { get; set; }
+        public int? SABTDATE { get; set; }
         public double? SARMAYE { get; set; }
         public string BRAND { get; set; }
         public int? STATUS { get; set; }

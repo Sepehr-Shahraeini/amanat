@@ -9,13 +9,17 @@ namespace amanatApi.Models
     {
         public ERP_CODING()
         {
-            ERP_ASSETLs = new HashSet<ERP_ASSETL>();
             ERP_ASSETs = new HashSet<ERP_ASSET>();
             ERP_PAPERITEMs = new HashSet<ERP_PAPERITEM>();
             ERP_REPAIR_MATERIALs = new HashSet<ERP_REPAIR_MATERIAL>();
             ERP_REPAIR_PROBLEMs = new HashSet<ERP_REPAIR_PROBLEM>();
             ERP_REPAIR_RMATERIALs = new HashSet<ERP_REPAIR_RMATERIAL>();
             ERP_TASK_REFs = new HashSet<ERP_TASK_REF>();
+            NET_CMPD_GROUPs = new HashSet<NET_CMPD_GROUP>();
+            NET_CMPD_MATs = new HashSet<NET_CMPD_MAT>();
+            NET_CMPD_TOOLs = new HashSet<NET_CMPD_TOOL>();
+            NET_MPD_TASK_MATs = new HashSet<NET_MPD_TASK_MAT>();
+            NET_MPD_TASK_TOOLs = new HashSet<NET_MPD_TASK_TOOL>();
         }
 
         public int ID { get; set; }
@@ -37,12 +41,16 @@ namespace amanatApi.Models
         public int? ASSET_TYPE { get; set; }
         public int? MASRAFPERIOD { get; set; }
 
-        public virtual ICollection<ERP_ASSETL> ERP_ASSETLs { get; set; }
         public virtual ICollection<ERP_ASSET> ERP_ASSETs { get; set; }
         public virtual ICollection<ERP_PAPERITEM> ERP_PAPERITEMs { get; set; }
         public virtual ICollection<ERP_REPAIR_MATERIAL> ERP_REPAIR_MATERIALs { get; set; }
         public virtual ICollection<ERP_REPAIR_PROBLEM> ERP_REPAIR_PROBLEMs { get; set; }
         public virtual ICollection<ERP_REPAIR_RMATERIAL> ERP_REPAIR_RMATERIALs { get; set; }
         public virtual ICollection<ERP_TASK_REF> ERP_TASK_REFs { get; set; }
+        public virtual ICollection<NET_CMPD_GROUP> NET_CMPD_GROUPs { get; set; }
+        public virtual ICollection<NET_CMPD_MAT> NET_CMPD_MATs { get; set; }
+        public virtual ICollection<NET_CMPD_TOOL> NET_CMPD_TOOLs { get; set; }
+        public virtual ICollection<NET_MPD_TASK_MAT> NET_MPD_TASK_MATs { get; set; }
+        public virtual ICollection<NET_MPD_TASK_TOOL> NET_MPD_TASK_TOOLs { get; set; }
     }
 }

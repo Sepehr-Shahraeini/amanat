@@ -10,7 +10,7 @@ namespace amanatApi.Models
         public int ID { get; set; }
         public int ASSETID { get; set; }
         public int? PARDAKHAT_TYPE { get; set; }
-        public long DATE_CHARGE { get; set; }
+        public int DATE_CHARGE { get; set; }
         public double PRICE { get; set; }
         public string RAHGIRI_NO { get; set; }
         public int? APPROVER { get; set; }

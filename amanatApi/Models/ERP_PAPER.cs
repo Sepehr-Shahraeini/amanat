@@ -16,11 +16,11 @@ namespace amanatApi.Models
         }
 
         public int ID { get; set; }
-        public long NO { get; set; }
+        public int NO { get; set; }
         public string FULLNO { get; set; }
-        public long? PAPERDATE { get; set; }
-        public long CREATEDATE { get; set; }
-        public long? PAPEREXPDATE { get; set; }
+        public int? PAPERDATE { get; set; }
+        public int CREATEDATE { get; set; }
+        public int? PAPEREXPDATE { get; set; }
         public int PAPERTYPE { get; set; }
         public int APPROVED { get; set; }
         public int ACTIVE { get; set; }
@@ -48,14 +48,14 @@ namespace amanatApi.Models
         public int? TARGETUSER { get; set; }
         public int? CREATOR { get; set; }
         public string LICENCE_NO { get; set; }
-        public long? LICENCE_DATE { get; set; }
+        public int? LICENCE_DATE { get; set; }
         public string LICENCE_CREATOR { get; set; }
         public string LICENCE_IMAGE_URL { get; set; }
         public int? ORIGINALPAPERID { get; set; }
         public int PAPERYEAR { get; set; }
         public int? RESERVEDFORUNIT { get; set; }
         public int? FKOPERTOR { get; set; }
-        public long? DEADLINE { get; set; }
+        public int? DEADLINE { get; set; }
         public string FKMACHINETYPE { get; set; }
         public int? FKMACHINE { get; set; }
         public int? FKCOMPANY { get; set; }
@@ -71,14 +71,14 @@ namespace amanatApi.Models
         public double? INVOICE_FINALPRICE { get; set; }
         public double? TRANSPORTCOST { get; set; }
         public double? COST_ADDITIVE { get; set; }
-        public long? TRANSPORTDATE { get; set; }
+        public int? TRANSPORTDATE { get; set; }
         public string TRANSPORTER { get; set; }
-        public long? DELIVERYDATE { get; set; }
+        public int? DELIVERYDATE { get; set; }
         public string QUOTATION { get; set; }
-        public long? INVOICE_DATE { get; set; }
+        public int? INVOICE_DATE { get; set; }
         public string DESCRIPTION { get; set; }
         public double? COST_SUBTRACTIVE { get; set; }
-        public long? RECEIPTDATE { get; set; }
+        public int? RECEIPTDATE { get; set; }
         public int? INVOICE_CURRENCY { get; set; }
         public string LICENCE_DESCRIPTION { get; set; }
         public int? KEEPING_LOCATION { get; set; }
@@ -93,12 +93,12 @@ namespace amanatApi.Models
         public int? KASR_SERGHAT_USERID { get; set; }
         public double? KASR_SERGHAT_KARSHENASI { get; set; }
         public double? KASR_SERGHT_MANAVI { get; set; }
-        public long? KASR_DEADLINE { get; set; }
-        public long? KASR_RETURN_DATE { get; set; }
+        public int? KASR_DEADLINE { get; set; }
+        public int? KASR_RETURN_DATE { get; set; }
         public int? KASR_REASON { get; set; }
         public int? EDITFROMPAPER { get; set; }
         public int? NEEDPRICECALC { get; set; }
-        public long? KASR_DATE { get; set; }
+        public int? KASR_DATE { get; set; }
         public string CACHEDKEY { get; set; }
         public int IS_CONTINUAL { get; set; }
         public byte[] OLDID { get; set; }

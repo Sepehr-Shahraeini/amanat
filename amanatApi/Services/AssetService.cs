@@ -11,6 +11,9 @@ namespace amanatApi.Services
     public interface IAssetService
     {
         DbSet<VIEW_ASSET> GetAssetsQuery();
+        DbSet<VIEW_VEHICLE> GetVehiclesQuery();
+        DbSet<VIEW_MELK> GetMelksQuery();
+        DbSet<VIEW_PHONE> GetPhonesQuery();
     }
 
 
@@ -26,6 +29,18 @@ namespace amanatApi.Services
         public DbSet<VIEW_ASSET> GetAssetsQuery()
         {
             return _context.VIEW_ASSETs;
+        }
+      public DbSet<VIEW_VEHICLE> GetVehiclesQuery()
+        {
+            return _context.VIEW_VEHICLEs;
+        }
+      public DbSet<VIEW_MELK> GetMelksQuery()
+        {
+            return _context.VIEW_MELKs;
+        }
+      public DbSet<VIEW_PHONE> GetPhonesQuery()
+        {
+            return _context.VIEW_PHONEs;
         }
     }
 }

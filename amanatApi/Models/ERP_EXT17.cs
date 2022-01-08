@@ -22,7 +22,7 @@ namespace amanatApi.Models
         public double? F_MASAHATKOL { get; set; }
         public double? F_ZIRBANA { get; set; }
         public int? PAYANKARID { get; set; }
-        public long? SANADTEDAD { get; set; }
+        public int? SANADTEDAD { get; set; }
         public string VMALEKIAT { get; set; }
         public int? SANADVAZIATID { get; set; }
         public int? SANADTYPEID { get; set; }
@@ -39,7 +39,7 @@ namespace amanatApi.Models
         public string DAFTARCODE { get; set; }
         public string DAFTERSABTNO { get; set; }
         public int? N_DAFTARSAFHE { get; set; }
-        public long? DAFTARDATE { get; set; }
+        public int? DAFTARDATE { get; set; }
         public int? N_YEAR { get; set; }
         public string TASISAT { get; set; }
         public int? TABAGHETEDAD { get; set; }

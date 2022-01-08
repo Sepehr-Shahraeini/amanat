@@ -10,7 +10,7 @@ namespace amanatApi.Models
         public int ID { get; set; }
         public int? APPLICATION { get; set; }
         public int USERID { get; set; }
-        public long DATE_CREATE { get; set; }
+        public int DATE_CREATE { get; set; }
         public string ACTIVITY { get; set; }
         public string REMARK { get; set; }
         public int? ENTITYID { get; set; }

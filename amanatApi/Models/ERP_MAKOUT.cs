@@ -17,20 +17,20 @@ namespace amanatApi.Models
         public int? REQLOCID { get; set; }
         public int? APPROVERID { get; set; }
         public int? RECID { get; set; }
-        public long? REQUESTDATE { get; set; }
-        public long? RECDATE { get; set; }
-        public long? APPROVEDATE { get; set; }
+        public int? REQUESTDATE { get; set; }
+        public int? RECDATE { get; set; }
+        public int? APPROVEDATE { get; set; }
         public string LETTERSUBJECT { get; set; }
-        public long? LETTERDATE { get; set; }
+        public int? LETTERDATE { get; set; }
         public string LETTERNO { get; set; }
         public int? REASON { get; set; }
-        public long? EXITDATE { get; set; }
-        public long? DEADLINE { get; set; }
-        public long? RETURNDATE { get; set; }
+        public int? EXITDATE { get; set; }
+        public int? DEADLINE { get; set; }
+        public int? RETURNDATE { get; set; }
         public string DESCRIPTION { get; set; }
         public int ISCONTINUAL { get; set; }
         public int? PARENTID { get; set; }
-        public long? CREATEDATE { get; set; }
+        public int? CREATEDATE { get; set; }
         public int ISTRANSFERED { get; set; }
 
         public virtual ERP_MAKHZAN SANAD { get; set; }

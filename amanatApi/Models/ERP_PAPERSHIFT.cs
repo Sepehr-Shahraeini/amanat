@@ -9,7 +9,7 @@ namespace amanatApi.Models
     {
         public int ID { get; set; }
         public int PAPERID { get; set; }
-        public long DATE_CREATE { get; set; }
+        public int DATE_CREATE { get; set; }
         public int CREATOR { get; set; }
         public int OLDRECID { get; set; }
         public int NEWRECID { get; set; }

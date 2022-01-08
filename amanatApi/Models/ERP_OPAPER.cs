@@ -9,9 +9,9 @@ namespace amanatApi.Models
     {
         public int P_ID { get; set; }
         public string P_FULLNO { get; set; }
-        public long? P_PAPERDATE { get; set; }
-        public long? P_CREATEDATE { get; set; }
-        public long? P_PAPEREXPDATE { get; set; }
+        public int? P_PAPERDATE { get; set; }
+        public int? P_CREATEDATE { get; set; }
+        public int? P_PAPEREXPDATE { get; set; }
         public int? P_PAPERTYPE { get; set; }
         public string P_PAPERTYPE_STR { get; set; }
         public int? P_ROOTLOCATION { get; set; }
@@ -57,13 +57,13 @@ namespace amanatApi.Models
         public int? P_RESERVEDFORUNIT { get; set; }
         public string P_RESERVEDFORUNIT_TITLE { get; set; }
         public string P_RESERVEDFORUNIT_CODE { get; set; }
-        public long? P_DEADLINE { get; set; }
+        public int? P_DEADLINE { get; set; }
         public string P_DESCRIPTION { get; set; }
         public int? STATUS { get; set; }
         public int? STATUS_BY { get; set; }
         public string STATUS_BY_NAME { get; set; }
         public string STATUS_BY_PIDS { get; set; }
-        public long? STATUS_DATE { get; set; }
+        public int? STATUS_DATE { get; set; }
         public string STATUS_DATE_F { get; set; }
         public string STATUS_STR { get; set; }
         public int? ASSET_ID { get; set; }
@@ -89,11 +89,11 @@ namespace amanatApi.Models
         public string ASSET_CURRENCY_STR { get; set; }
         public int? ASSET_EARNINGTYPE { get; set; }
         public string ASSET_EARNINGTYPE_STR { get; set; }
-        public long? ASSET_PRODATE { get; set; }
-        public long? ASSET_EXPDATE { get; set; }
-        public long? ASSET_PURCHASEDATE { get; set; }
-        public long? ASSET_OPERATIONDATE { get; set; }
-        public long? ASSET_LETTERDATE { get; set; }
+        public int? ASSET_PRODATE { get; set; }
+        public int? ASSET_EXPDATE { get; set; }
+        public int? ASSET_PURCHASEDATE { get; set; }
+        public int? ASSET_OPERATIONDATE { get; set; }
+        public int? ASSET_LETTERDATE { get; set; }
         public string ASSET_LETTERNO { get; set; }
         public string ASSET_LETTERSUBJECT { get; set; }
         public string ASSET_DESCRIPTION { get; set; }
@@ -152,15 +152,15 @@ namespace amanatApi.Models
         public string KASR_SERGHAT_NAME { get; set; }
         public double? KASR_SERGHAT_KARSHENASI { get; set; }
         public double? KASR_SERGHT_MANAVI { get; set; }
-        public long? KASR_DEADLINE { get; set; }
+        public int? KASR_DEADLINE { get; set; }
         public string KASR_DEADLINE_F { get; set; }
         public int? KASR_REMAIN { get; set; }
-        public long? KASR_RETURN_DATE { get; set; }
+        public int? KASR_RETURN_DATE { get; set; }
         public string KASR_RETURN_DATE_F { get; set; }
         public int? KASR_RETURNED { get; set; }
         public int? KASR_REASON { get; set; }
         public string KASR_REASON_STR { get; set; }
-        public long? KASR_DATE { get; set; }
+        public int? KASR_DATE { get; set; }
         public int? IS_CONTINUAL { get; set; }
         public int? EXIT_STATUS { get; set; }
         public string EXIT_STATUS_STR { get; set; }
@@ -203,6 +203,6 @@ namespace amanatApi.Models
         public string PI_CONDITION_STR { get; set; }
         public string PI_TASK_STR { get; set; }
         public string PI_DESCRIPTION { get; set; }
-        public long? PI_DELIVERYDATE { get; set; }
+        public int? PI_DELIVERYDATE { get; set; }
     }
 }

@@ -40,15 +40,15 @@ namespace amanatApi.Models
         public string DESCRIPTION { get; set; }
         public string MODEL { get; set; }
         public string BRAND { get; set; }
-        public long? DELIVERYDATE { get; set; }
+        public int? DELIVERYDATE { get; set; }
         public string SNBN { get; set; }
         public int? STATUS { get; set; }
-        public long? STATUS_DATE { get; set; }
+        public int? STATUS_DATE { get; set; }
         public int? STATUS_BY { get; set; }
         public double ORIGINAL_PRICE { get; set; }
         public int? SENDERCONDITION { get; set; }
         public float? INIT_QTY { get; set; }
-        public long? KASR_RETURN_DATE { get; set; }
+        public int? KASR_RETURN_DATE { get; set; }
         public byte[] OLDPAPERID { get; set; }
         public byte[] OLDID { get; set; }
         public int? BUYFORLOCATION { get; set; }

@@ -9,7 +9,6 @@ namespace amanatApi.Models
     {
         public ERP_ORGANIZATION()
         {
-            ERP_ASSETLs = new HashSet<ERP_ASSETL>();
             ERP_ASSETs = new HashSet<ERP_ASSET>();
         }
 
@@ -23,7 +22,6 @@ namespace amanatApi.Models
         public int? ROOTLOCATION { get; set; }
         public int? OLDID { get; set; }
 
-        public virtual ICollection<ERP_ASSETL> ERP_ASSETLs { get; set; }
         public virtual ICollection<ERP_ASSET> ERP_ASSETs { get; set; }
     }
 }
